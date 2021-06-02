@@ -1,11 +1,10 @@
 const Lista = [];
+
 function random(min, max){
 
     const rand = Math.random() * (max - min) + min
     return Math.floor(rand);
 }
-
-console.log(random(0, 100));
 
 for (let i = 0; i <= 13; i++){
 
@@ -15,7 +14,6 @@ for (let i = 0; i <= 13; i++){
 }
 console.log(Lista);
 
-//Filter -> Filtra o Array.
 
 //Lista com os valores maiores que 10->
 const maior = [];
@@ -31,6 +29,7 @@ for (let valor of Lista){
 }
 console.log(maior);
 
+//Filter -> Filtra o Array.
 //Usando Filter()->
 //                                Função de Callback
 const numFiltrados = Lista.filter(valor => valor > 10)
