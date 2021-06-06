@@ -4,7 +4,7 @@ const lista = ['Tundê', 'Dudu', 'Carla', 'Levi', 'Nathan'];
 
 
 //Simulando o pop()->
-const remover = lista.splice(-1, 1);
+const remover = lista.splice(-2, 2);
 console.log(lista, remover);
 
 //simulando o shift()->
